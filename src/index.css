@@ -1,0 +1,505 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-brand img{
+  padding: 20px;
+  width: 250px;
+}
+
+.navbar a:hover{
+  color: teal;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #d89f02;
+}
+
+/*code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+.brand-name{
+  color: #dfac07;
+}
+#content{
+  display: flex;
+  justify-content: center;
+  flex: column;
+  flex-direction: column;
+}
+.homebutton{
+  border-color: teal;
+  color: teal;
+  border: solid 2px teal;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  
+}
+.homebutton:hover{
+  background-color: teal;
+  color: white;
+  border: solid 2px teal;
+  transition: .5s;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.homemiddletext{
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.homemiddletext h3{
+  color: #dfac07;
+}
+.homecard .card .cardimg{
+    height: auto;
+    width: 100%;
+    border: 5px solid #d89f02;
+    padding: 10px;
+}
+.homecard .card .cardimg img{
+  width: 50px;
+  object-fit: cover;
+}
+
+
+
+
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+/*
+@-webkit-keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+*/
+
+/*About*/
+.aboutiddletext{
+  text-align: center;
+  margin-top: 30px;
+  padding: 50px;
+}
+.aboutiddletext h1{
+  font-size: 3rem;
+}
+.aboutiddletext h3{
+  font-size: 1.7rem;
+  color: #d89f02;
+}
+.aboutiddletext a{
+  background-color: rgb(187, 113, 2);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  vertical-align: center;
+  text-decoration: none;
+}
+.aboutiddletext a:hover{
+  background-color: teal;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.aboutcontaint p{
+  margin-top: 3%;
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+}
+.aboutcard{
+  align-items: center;
+}
+.facultyname{
+  color: #d89f02;
+  text-align: center;
+}
+/**/
+.header-img{
+  align-items: center;
+}
+/**/
+.about_page img{
+  margin-left: 120px;
+  height: 450px;
+}
+.header-img img{
+  padding: 10px;
+  height: 350px;
+  align-items: center;
+  vertical-align: middle;
+}
+.qualification{
+  text-align: center;
+}
+
+/*only in about page*/
+.header-img .about_page{
+  border-radius: 20px;
+  border: 2px solid teal;
+}
+
+/*Crads*/
+
+.cards{
+  margin-left: 60px;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card{
+  width: 250px;
+  box-shadow:none; /*2px 2px 5px rgba(0, 0, 0, 0.2);*/
+  border: none;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+/**/
+.card .cardimg{
+  height: auto;
+  width: 100%;
+}
+
+
+.card .cardimg img{
+  width: 100%;
+  object-fit: cover;
+}
+.cardtext{
+  padding: 10px;
+}
+
+/*Card color*/
+
+
+.red .cardtext{
+  padding-top: 20px;
+  padding: 1s0px;
+  color: white;
+  background-color: #d89f02;
+  border-bottom-right-radius: 50px;
+  /*border-right: 5px solid #e0ce24;
+  border-left: 5px solid #e0ce24;
+  border-bottom: 5px solid #e0ce24;*/
+}
+.orange .cardtext{
+  padding-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #d89f02;
+  border-bottom-right-radius: 50px;
+}
+.green .cardtext{
+  padding-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #d89f02;
+  border-bottom-right-radius: 50px;
+}
+.blue .cardtext{
+  padding-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #d89f02;
+  border-bottom-right-radius: 50px;
+}
+
+/*Cource*/
+
+
+
+
+/*Demo cards*/
+
+.democard .cardtext{
+  padding: 0px;
+}
+.democard .cardtext{
+  width: 0px;
+  height: 0px;
+}
+
+
+
+.homebutton .a{
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 30px;
+  border: 2px solid teal;
+  color: teal;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.homebutton a:hover{
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: teal;
+  border: 2px solid teal;
+  color: white;
+  align-items: center;
+  text-align: center;
+  transition: .5s;
+}
+
+
+/*Contact*/
+.address{
+  max-width: 1220px;
+  margin: 50px auto;
+  border: 2px solid teal;
+  color: teal;
+  padding: 10px;
+  display: flex;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+.address span{
+  padding: 20px;
+}
+.contactleft{
+  width: 50%;
+}
+.contactright{
+  width: 50%;
+}
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+.form_heading
+{
+  font-family: Helvetica, Arial, sans-serif;
+  color: teal;
+  text-align: center;
+  size: 2em;
+}
+.feedback-input {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+ /* border: 2px solid #cc6666;*/
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  /*box-sizing: border-box;*/
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid teal;
+}
+
+form textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+
+.seb_rese_button
+{
+  align-items: center;
+}
+
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 40%;
+  background: white;
+  border: 2px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: teal;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  margin-right: 40px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: teal;
+  color: white;
+}
+
+[type="reset"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 40%;
+  background: white;
+  border: 2px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: teal;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  margin-left: 40px;
+  font-weight: 700;
+}
+[type="reset"]:hover {
+  background: teal;
+  color: white;
+}
+@media only screen and (max-width: 780px)
+{
+  .abc{
+    height: 80vh;
+  }
+  .homemiddletext{
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  .address{
+    max-width: 520px;
+    margin: 50px auto;
+    border: 2px solid teal;
+    color: teal;
+    padding: 10px;
+    display: grid;
+  }
+  .address h3{
+    font-size: 1.2rem;
+  }
+  .address .contactright h3{
+    font-size: 1.2rem;
+  }
+  .contactleft{
+    width: 100%;
+  }
+  .contactright{
+    width: 100%;
+  }
+  
+}
+@media only screen and (max-width: 480px)
+{
+      .navbar-brand img{
+        padding: 20px;
+        width: 130px;
+      }
+
+
+      #content{
+        margin-top: -60px;
+      }
+
+      .homemiddletext{
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      
+      /*about page img*/
+      .header-img img{
+        padding: 10px;
+        height: 250px;
+      }
+      .about_page img{
+        margin-left: 70px;
+        height: 200px;
+      }
+
+      .abc{
+        height: 80vh;
+      }
+
+
+      .address{
+        max-width: 350px;
+        margin: 50px auto;
+        border: 2px solid teal;
+        color: teal;
+        padding: 10px;
+        display: grid;
+      }
+      .address h3{
+        font-size: 1rem;
+      }
+      .address .contactright h3{
+        font-size: .8rem;
+      }
+      .contactleft{
+        width: 100%;
+      }
+      .contactright{
+        width: 100%;
+      }
+
+      form {
+        max-width: 320px;
+        margin: 50px auto;
+      }
+      [type="submit"]{
+        font-size: 14px;
+        margin-right: 20px;
+      }
+      [type="reset"]{
+        font-size: 14px;
+        margin-left: 40px;
+      }
+      
+}
+
+
+/*Footer*/
+.footer{
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-top: 80px;
+  /*background-color: #f1f1f1;*/
+}
+.footer a{
+  margin-left: 10px;
+}
+
+
+.developer_name{
+  color: #929292;
+}
